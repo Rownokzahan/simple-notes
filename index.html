@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -22,13 +25,7 @@
         <section id="note-list" class="bg-[#ff287c] rounded-md p-8 flex flex-col gap-6">
             <div class="flex gap-6 justify-between bg-white rounded-md p-4">
                 <p class="text-gray-700">This is a smaple note</p>
-                
-                <!-- trash icon -->
-                <button class="remove-icon">
-                    <svg width="20" height="20" viewBox="0 0 20 20">
-                        <path d="M17 2h-3.5l-1-1h-5l-1 1H3v2h14zM4 17a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V5H4z" />
-                    </svg>
-                </button>
+                <button class="remove-icon bi bi-trash-fill"></button>
             </div>
         </section>
     </main>
